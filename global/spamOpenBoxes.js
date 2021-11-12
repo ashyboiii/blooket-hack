@@ -12,7 +12,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
         price = ({
             aquatic: 25,
             bot: 20,
-            space: .01,
+            space: 1,
             breakfast: 15,
             medieval: 15,
             wonderland: 20
