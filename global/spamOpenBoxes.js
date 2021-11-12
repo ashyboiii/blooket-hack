@@ -17,12 +17,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
             medieval: 15,
             wonderland: 20
         })[box],
-        opens = amount > Math.floor(tokens / price) ? Math.floor(tokens / price) : amount;
-    let interval = new Promise((resolve) => {
-        inv = [],
-            end = (a) => {
-                clearInterval(a)
-                resolve({ fail: false, blooks: inv })
+        opens = 10
             };
         let Interval = setInterval(() => {
             if (!opens) return end(Interval)
